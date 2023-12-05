@@ -4,11 +4,11 @@ import com.wisestart.consumerservice.infrastructure.pokebalance.PokeBalanceClien
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
-@Component
 public class CommandLine implements CommandLineRunner {
     @Autowired
     PokeBalanceClient pokeBalanceClient;

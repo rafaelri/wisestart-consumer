@@ -20,6 +20,8 @@ dependencies {
 	implementation 'org.springframework:spring-web'
 	implementation 'com.fasterxml.jackson.core:jackson-databind'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation("au.com.dius:pact-jvm-consumer-junit5:4.0.3")
+	testImplementation("au.com.dius:pact-jvm-consumer-java8:4.0.3")
 }
 
 tasks.named('test') {
